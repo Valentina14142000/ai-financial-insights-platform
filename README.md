@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📊 AI Financial Insights Platform
 
-## Getting Started
+> AI-powered SaaS application that analyzes financial transactions and provides intelligent insights, spending patterns, and risk detection using OpenAI.
 
-First, run the development server:
+---
+
+## 🚀 Overview
+
+The AI Financial Insights Platform helps users understand their financial data by automatically analyzing transactions and generating actionable insights.
+
+It simulates a real-world **fintech AI SaaS product** used for:
+
+- Personal finance tracking
+- Business expense analysis
+- Financial decision support
+- Risk and anomaly detection
+
+---
+
+## ✨ Features
+
+- 📁 Upload financial transaction CSV files
+- 📊 Automatic income vs expenses analysis
+- 🧠 AI-powered financial insights (OpenAI-ready)
+- 💡 Spending pattern detection
+- ⚠️ Expense anomaly detection (planned)
+- 💬 AI financial assistant chat interface (in progress)
+- 📈 Dashboard with summary metrics
+- ⚡ Fast Next.js full-stack architecture
+
+---
+
+## 🧠 Tech Stack
+
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- OpenAI API (integration ready)
+- Supabase (database ready)
+- Node.js backend APIs
+
+---
+
+## 🏗️ Architecture
+
+
+User Upload (CSV)
+↓
+Frontend (Next.js Dashboard)
+↓
+API Routes (/api/upload & /api/insights)
+↓
+Data Processing Layer
+↓
+AI Analysis (OpenAI - upcoming)
+↓
+Insights Dashboard Output
+
+
+---
+
+## 📁 Project Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+app/            # Frontend pages & API routes
+components/     # UI components (Dashboard, Chat, Upload)
+lib/            # Utilities (CSV parser, OpenAI, DB)
+types/          # TypeScript definitions
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+👨‍💻 Author
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Valentina Kiyungi
+Full-Stack Developer | AI Engineer | SaaS Builder
